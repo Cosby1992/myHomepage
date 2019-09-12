@@ -1,8 +1,8 @@
 
 #meimage {
     float: left;
-    max-width: 200px;
-    max-width: 200px;
+    max-width: 150px;
+    max-width: 150px;
     height: auto;
     width: auto;
     border-radius: 50%;
@@ -15,7 +15,7 @@
     color: whitesmoke;
     font-size: small;
     text-align: start;
-    padding: 20px;
+    padding: 2%;
     margin: auto;
 }
 
