@@ -5,48 +5,6 @@ body {
     background-position: center;
 }
 
-.top_bar {
-    width: auto;
-    height: auto;
-    background-color: black;
-}
-
-#top_img_wrap {
-    max-width: 100%;
-    max-height: 400px;
-    height: auto;
-    width: auto\9; /* ie8 */
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: black;
-    background-repeat: repeat-x;
-
-}
-
-
-#meimage {
-    float: left;
-    max-width: 200px;
-    max-width: 200px;
-    height: auto;
-    width: auto;
-    border-radius: 50%;
-}
-
-#mebox {
-    align-self: center;
-    max-width: 1000px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    font-size: small;
-    text-align: start;
-    padding: 20px;
-    margin: auto;
-}
-
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
@@ -59,10 +17,11 @@ p {
 
 .nav_list {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
     padding: 0;
     overflow: hidden;
-    background-color: #2e2e2e;
+    background-color: rgb(46, 46, 46);
 
   }
   
@@ -77,9 +36,13 @@ p {
     text-align: center;
     padding: 20px 30px;
     text-decoration: none;
+    font-size: large;
+    transition: all .2s ease-in-out;
   }
   
   /* Change the link color to #1f1f1f on hover */
   .nav_list_item_a:hover {
+    color: rgb(209, 255, 162);
     background-color: #1f1f1f;
+    transform: scale(1.1);
   }

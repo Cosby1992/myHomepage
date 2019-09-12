@@ -1,0 +1,41 @@
+
+#meimage {
+    float: left;
+    max-width: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+#mebox {
+    align-self: center;
+    max-width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: small;
+    text-align: start;
+    padding: 20px;
+    margin: auto;
+}
+
+.top_bar {
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+#top_img_wrap {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat-x;
+
+}
